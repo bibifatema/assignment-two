@@ -1,0 +1,414 @@
+/* responsive for Mobile device */
+
+@media screen and (max-width: 576px) {
+
+   
+    .default-margin-for-mobile {
+        margin: 0 1.25rem;
+    }
+
+
+    header {
+        padding: 0 1.25rem;
+    }
+
+    .Free-Workout-Videos .badge-title {
+        font-size: 30px;
+    }
+
+    .video-tutorial .badge-title {
+        font-size: 18px;
+    }
+
+    .hero-badge {
+        padding: 15px 17px;
+    }
+
+    .video-tutorial .play-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .badge-description {
+        font-size: 10px;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .hamber {
+        display: block;
+    }
+
+    /* hero section */
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin: 0 0 48px;
+    }
+
+    .hero-banner {
+        width: 100%;
+        margin: 0 0 48px;
+    }
+
+    .hero-banner img {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2.25rem;
+        font-weight: 900;
+        width: 17.8125rem;
+    }
+
+    .hero-description {
+        width: 17.125rem;
+    }
+
+    .btn-primary {
+        margin: 0 14px 14px 0;
+        padding: 19px 15px;
+    }
+
+    .btn-secondary {
+        padding: 16px 13px;
+    }
+
+    .Free-Workout-Videos {
+        top: 47px;
+        right: 13px;
+    }
+
+
+    .video-tutorial {
+        left: 17px;
+        bottom: 231px;
+    }
+
+    /* Habit Section */
+
+
+    .habit-section-header {
+        width: 100%;
+    }
+
+    .habit-section-title {
+        font-size: 2rem;
+    }
+
+    .habit-section-description {
+        line-height: 24px;
+    }
+
+    .habit-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 53px;
+    }
+
+    
+
+
+    /* run section start */
+
+    .run {
+        margin-top: 2.5rem;
+    }
+
+    .run-section-title {
+        font-size: 2rem;
+    }
+
+    .run-section-description {
+        margin: 14px 0 24px;
+    }
+
+    .run-container {
+        padding: 31px 33px;
+        flex-direction: column;
+        margin-top: 66px;
+    }
+
+    .run-section-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .run-section-banner {
+        width: 100%;
+    }
+
+    .run-section-banner img {}
+
+    .join-now-btn {
+        width: 100%;
+        margin-bottom: 31px;
+        margin-right: 0;
+    }
+
+  
+
+
+
+
+
+    /* Training section start */
+
+    .training-section-container {
+        margin-top: 4.125rem;
+        margin-bottom: 30px;
+    }
+
+    .training-header {
+        width: 100%;
+    }
+
+    .training-section-title {
+        font-size: 2rem;
+    }
+
+    .training-section-description {
+        margin: 14px 0 38px;
+        line-height: 1.5rem;
+    }
+
+    .exercise-image-container {
+        grid-template-rows: repeat(2, 128px);
+    }
+
+    #exercise3,
+    #exercise6 {
+        display: none;
+    }
+
+
+    #exercise1 {
+        grid-column: span 6;
+    }
+
+    #exercise2 {
+        grid-column: span 6;
+    }
+
+    #exercise5 {
+        grid-column: span 7;
+    }
+
+    #exercise4 {
+        grid-column: span 5;
+    }
+
+
+    #exercise1>.exercise-title {
+        color: white;
+        bottom: 12px;
+        left: 10px;
+    }
+
+    #exercise2>.exercise-title {
+        top: 20px;
+        left: 20px;
+    }
+
+    #exercise4>.exercise-title {
+        bottom: 12px;
+        left: 10px;
+    }
+
+    #exercise5>.exercise-title {
+        bottom: 12px;
+        left: 10px;
+    }
+
+    .exercise-banner .exercise-title {
+        font-size: 14px;
+    }
+
+
+
+    /* BMI Calculator section start */
+
+    .bmi-calculator-chart-container {
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+
+    .bmi-section-header-area {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .bmi-calculator-section-title {
+        font-size: 2rem;
+    }
+
+    .bmi-calculator-chart-title {
+        margin-bottom: 23px;
+        font-size: 16px;
+    }
+
+    .bmi-calculator-chart-container table td {
+        font-size: 14px;
+    }
+
+    #bmi-weight-status {
+        width: 100%;
+    }
+
+    .calculator-header-title {
+        font-size: 16px;
+    }
+
+    .your-bmi-calculator {
+        width: 100%;
+        margin-top: 42px;
+    }
+
+    form input,
+    select {
+        padding: 13px 20px;
+    }
+
+    .calculate-btn {
+        margin: 34px 0 43px;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
+    }
+
+
+    /* Get With the program start */
+    .get-with-the-program {
+        flex-direction: column;
+    }
+
+    .program-content {
+        width: 100%;
+    }
+
+    .program-banner {
+        width: 100%;
+    }
+
+    .program-title {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .program-content li {
+        font-size: 16px;
+    }
+
+
+
+    /* Training Schedule section start */
+    .training_schedule {
+        padding: 50px 20px;
+        margin-top: 100px;
+
+    }
+
+    .main_container_of_training_schedule {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+
+    .each_day{
+        padding: 30px 20px;
+    }
+
+    .each_trainer{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .each_trainer .info {
+        width: 100%;
+    }
+
+    .each_trainer .banner {
+        width: 60%;
+    }
+
+
+    /* Our team section start */
+
+
+    .meet-our-team-heading-content {
+        padding: 0 22px;
+    }
+
+    .our-team-section-title {
+        font-size: 2rem;
+    }
+
+    .our-team-section-description {
+        font-size: 14px;
+    }
+
+    .meet-our-team {
+        margin: 66px 0 66px;
+    }
+
+    .meet-our-team .main-content {
+        margin: 37px 20px 66px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #team-person1,
+    #team-person4 {
+        display: none;
+    }
+
+    #team-person2 {
+        order: 1;
+    }
+
+    #team-person5 {
+        order: 2;
+    }
+
+    #team-person3 {
+        order: 3;
+    }
+
+    #team-person6 {
+        order: 4;
+    }
+
+
+    /* Footer section start */
+
+    .footer {
+        text-align: left;
+        padding: 41px 0 57px;
+    }
+
+    .footer-item-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 44px 0 72px;
+    }
+
+    .footer-container {
+        padding: 0 1.25rem;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+
+
+    .footer-each-section {
+        margin: 0 36px 30px 0;
+    }
+
+    .footer-container li a {
+        font-size: 1.5rem;
+    }
+
+}

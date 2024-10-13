@@ -1,88 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-Two</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
+
 <body>
-    <header class="topheader">
-        <nav class="nav">
-            <div>
-                <h2 class="fit ">Fitness</h2>
+    <!-- header section start -->
+    <header class=".nav-and-header">
+        <div class="max-width">
+            <nav class="navbar">
+                <button class="logo"><em>Fitness</em></button>
 
-            </div>
-            <div>
-               <ul class="list">
-                <li class="btn"><button>Home</button></li>
-                <li>Service</li>
-                <li>Contact</li>
-                <li>About</li>
-               </ul>
+                <ul class="nav-links">
+                    <li class="link"><a href="#">Home</a></li>
+                    <li class="link"><a href="#">Service</a></li>
+                    <li class="link"><a href="#">Contact</a></li>
+                    <li class="link"><a href="#">About</a></li>
+                </ul>
+                <div class="hamber">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
 
-            </div>
-        </nav>
-        <section class="bannner">
-            <div class="banner container">
-                <h1 class="banner-content">Get body in<br> <span class="shape">shape</span> & stay<br> healthy</h1>
-                <p>A huge selection of health and fitness content, healthy recipes<br>and transformation stories to help you get fit and stay fit!</p>
-                <button class="btn-1">Join Club Now</button>
-                <button class="btn-2">Download App</button>
+            <div class="hero flex">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Get body in <span class="shape"><em>shape</em></span> & stay
+                        healthy
+                    </h1>
+                    <p class="hero-description">
+                        A huge selection of health and fitness content, healthy recipes
+                        and transformation stories to help you get fit and stay fit!
+                    </p>
+                    <button class="btn-primary">Join Club Now!</button>
+                    <button class="btn-secondary">Download App</button>
+                </div>
 
-            </div>
-            <div>
-                <div>
-                    <img src="images/Images 2.png" alt=""> 
-                </div>
-                <div class="500+">
-                    <h2>500+</h2>
-                    <p>Free Workout Videos</p>
-                </div>
-                <div class="350+">
-                    <h3>350+</h3>
-                    <p>Video tutorial</p>
-                </div>
-                
-            </div>
-            
-        </section>
+                <div class="hero-banner">
+                    <img src="images/Images 2.png" alt="hero banner" />
 
-    </header>
-    <main>
-        <div>
-            <div class="habits">
-                <h1>Change Your Habits</h1>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-            </div>
-            <div class="four habits">
-                <div>
-                    <img src="images/image 3.png" alt="">
-                    <h4>Movement</h4>
-                    <p>We believe fitness should be accessible to everyone</p>
+                    <div class="video-tutorial flex hero-badge">
+                        <button class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                        <div class="content">
+                            <h3 class="badge-title">350+</h3>
+                            <p class="badge-description">Video tutorial</p>
+                        </div>
+                    </div>
+
+                    <div class="Free-Workout-Videos hero-badge">
+                        <h2 class="badge-title">500+</h2>
+                        <p class="badge-description">Free Workout Videos</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/image 2.png" alt="">
-                    <h4>Time</h4>
-                    <p>We believe fitness should be accessible to everyone</p>
-                </div> 
-                <div>
-                    <img src="images/image 4.png" alt="">
-                    <h4>Practice</h4>
-                    <p>We believe fitness should be accessible to everyone</p>
-                </div>  
-                <div>
-                    <img src="images/image 5.png" alt="">
-                    <h4>Weight Loss</h4>
-                    <p>We believe fitness should be accessible to everyone</p>
-                </div> 
             </div>
         </div>
+    </header>
+    
 
+    <!-- main Section -->
+    <main class="main">
+       
+        <section class="habit max-width default-margin-for-mobile">
+            <div class="habit-section-header">
+                <h1 class="habit-section-title text-center">Change Your Habits</h1>
+                <p class="habit-section-description text-center">
+                    Transform Your Life with Simple, Effective Strategies for Building
+                    Positive, Lasting Habits and Achieving Your Goals.
+                </p>
+            </div>
+
+            <div class="habit-card-container">
+                
+                <div class="habit-card">
+                    <img src="./images/image 3.png" alt="practice Habit images" />
+                    <div>
+                        <h3 class="habit-title text-center">Movement</h3>
+                        <p class="habit-description text-center">
+                            Embrace Active Living with Daily Movement Strategies
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="habit-card">
+                    <img src="./images/image 2.png" alt="practice Habit images" />
+                    <div>
+                        <h3 class="habit-title text-center">Time</h3>
+                        <p class="habit-description text-center">
+                            Maximize Productivity with Effective Time Management
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="habit-card">
+                    <img src="./images/image 4.png" alt="practice Habit images" />
+                    <div>
+                        <h3 class="habit-title text-center">Practice</h3>
+                        <p class="habit-description text-center">
+                            Achieve Mastery Through Consistent and Deliberate Practice
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="habit-card">
+                    <img src="./images/image 5.png" alt="practice Habit images" />
+                    <div>
+                        <h3 class="habit-title text-center">Weight Loss</h3>
+                        <p class="habit-description text-center">
+                            Sustainable Strategies for Effective and Healthy Weight Loss
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="run max-width default-margin-for-mobile">
+            <div class="run-container">
+                <div class="run-section-content">
+                    <h1 class="run-section-title">Run an Extra Mile Easily</h1>
+                    <p class="run-section-description">
+                        Boost your endurance and stamina with practical tips and
+                        techniques, making it easy to run an extra mile effortlessly.
+                    </p>
+                    <button class="btn-primary join-now-btn">Join Now</button>
+                </div>
+                <div class="run-section-banner">
+                    <img src="images/run.jpg" alt="running banner" />
+                </div>
+            </div>
+        </section>
+        
+        <section class="training-section-container max-width default-margin-for-mobile">
+            <div class="training-header">
+                <h1 class="training-section-title">Trainings and Exercises</h1>
+                <p class="training-section-description">
+                    Comprehensive Workouts and Fitness Routines Designed to Improve
+                    Strength, Flexibility, and Overall Health through Effective
+                    Trainings and Exercises.
+                </p>
+            </div>
+
+            <div class="exercise-image-container">
+                <div class="exercise-banner" id="exercise1">
+                    <div class="gradient"></div>
+                    <p class="exercise-title">Trainer Stretching Online</p>
+                    <img src="./images/exercise1.jpg" alt="Exercise picture" />
+                </div>
+                <div class="exercise-banner" id="exercise2">
+                    <img src="./images/exercise2.png" alt="Exercise picture" />
+                    <p class="exercise-title">Doing Pushups</p>
+                    <div class="gradient"></div>
+                </div>
+                <div class="exercise-banner" id="exercise3">
+                    <img src="./images/exercise3.png" alt="Exercise picture" />
+                    <p class="exercise-title">Supervising Jumpsm</p>
+                    <div class="gradient"></div>
+                </div>
+                <div class="exercise-banner" id="exercise4">
+                    <img src="./images/exercise4.png" alt="Exercise picture" />
+                    <p class="exercise-title">preparing for exercise</p>
+                    <div class="gradient"></div>
+                </div>
+                <div class="exercise-banner" id="exercise5">
+                    <img src="./images/exercise5.jpg" alt="Exercise picture" />
+                    <p class="exercise-title">squat workout</p>
+                    <div class="gradient"></div>
+                </div>
+                <div class="exercise-banner" id="exercise6">
+                    <img src="./images/exercise6.jpg" alt="Exercise picture" />
+                    <p class="exercise-title">sit ups</p>
+                    <div class="gradient"></div>
+                </div>
+            </div>
+        </section>
+       
+        <section class="bmi-calculator-section-container">
+            <div class="calculator-header-wrapper default-margin-for-mobile">
+                <div class="bmi-section-header-area">
+                    <h1 class="bmi-calculator-section-title">BMI Calculator</h1>
+                    <p class="bmi-calculator-section-description">
+                        Discover your Body Mass Index (BMI) and learn about your weight
+                        status. Simple, accurate BMI calculator for a healthier you.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bmi-calculator-container">
+                
+                <div class="bmi-calculator-chart-container max-width">
+                    <div id="bmi-weight-status">
+                        <h2 class="bmi-calculator-chart-title">BMI Calculator Chart</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>OverWeight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="your-bmi-calculator">
+                        <div class="calculator-header-area">
+                            <h2 class="calculator-header-title">Calculate your BMI</h2>
+                            <p class="calculator-header-description">
+                                Quickly calculate your BMI and understand your weight
+                                category.
+                            </p>
+                        </div>
+
+                        <form>
+                            <div class="calculator-input-field">
+                                <label for="height">
+                                    <input type="number" name="height" id="height" placeholder="Height/cm" required />
+                                </label>
+
+                                <label for="weight">
+                                    <input type="number" name="weight" id="weight" placeholder="Weight/kg" required />
+                                </label>
+
+                                <label for="age">
+                                    <input type="number" name="age" id="age" placeholder="Age" required />
+                                </label>
+
+                                <label for="sex">
+                                    <select name="sex" id="sex" aria-placeholder="Sex" required>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                        <option value="others">Others</option>
+                                    </select>
+                                </label>
+
+                                <label for="avtivity" id="activity-input-field">
+                                    <select name="activity" id="activity" aria-placeholder="Select an activity factor"
+                                        required>
+                                        <option value="">Select an activity factor</option>
+                                    </select>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn-primary calculate-btn">
+                                Calculate
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-with-the-program max-width default-margin-for-mobile">
+            <div class="program-content">
+                <h1 class="program-title">Get With The Program</h1>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i> &nbsp; 24/7 Unlimited Access
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i> &nbsp; Instructed by top trainer
+                        riley olson
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i> &nbsp; Over 350+ video available
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i> &nbsp; Cardio, Strength &
+                        Stretch Workouts
+                    </li>
+                </ul>
+                <button class="btn-primary join-now-btn">Join Now</button>
+            </div>
+            <div class="program-banner">
+                <img src="images/the_program.jpg" alt="The Program Banner" />
+            </div>
+        </section>
+        <section class="training_schedule">
+            <div class="heading">
+                <div class="meet-our-team-heading-content">
+                    <h1 class="our-team-section-title text-center">Training Schedule</h1>
+                    <p class="our-team-section-description text-center">
+                        Stay updated with our latest training sessions, tailored schedules, and upcoming events to boost
+                        your skills.
+                    </p>
+                </div>
+            </div>
+
+            <div class="main_container_of_training_schedule max-width">
+                <div class="seven_day_container">
+                    <div class="each_day">
+                        <h3>Monday</h3>
+                        <p>Chest & Triceps</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Tuesday</h3>
+                        <p>Back & Biceps</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Wednesday</h3>
+                        <p>Legs</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Thursday</h3>
+                        <p>Shoulders & Abs</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Friday</h3>
+                        <p>Full Body</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Saturday</h3>
+                        <p>Cardio & Core</p>
+                    </div>
+                    <div class="each_day">
+                        <h3>Sunday</h3>
+                        <p>Rest or Active Recovery</p>
+                    </div>
+                </div>
+                <div class="training_members">
+                    <div class="each_trainer">
+                        <div class="banner">
+                            <img src="./images/trainer3.png" alt="trainer photo">
+                        </div>
+                        <div class="info">
+                            <p>08:00AM - 10:00AM</p>
+                            <h3 class="title">Bench Press</h3>
+                            <p>Bench press builds chest and triceps muscles, ideal for Monday workout.
+                            </p>
+                            <h3 class="trainer_name">---<span> Darrell Steward</span> <span class="role">Trainer</span>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="each_trainer">
+                        <div class="banner">
+                            <img src="./images/trainer1.png" alt="trainer photo">
+                        </div>
+                        <div class="info">
+                            <p>10:00AM - 11:00AM</p>
+                            <h3 class="title">Incline Dumbbell Press</h3>
+                            <p>Incline dumbbell press targets upper chest and triceps for balanced muscle development.
+                            </p>
+                            <h3 class="trainer_name">---<span> Jerome Bell</span> <span class="role">Trainer</span></h3>
+                        </div>
+                    </div>
+                    <div class="each_trainer">
+                        <div class="banner">
+                            <img src="./images/trainer5.png" alt="trainer photo">
+                        </div>
+                        <div class="info">
+                            <p>11:00AM - 12:00PM</p>
+                            <h3 class="title">Chest Flyes</h3>
+                            <p>Chest flyes isolate chest muscles, enhancing definition and overall shape.</p>
+                            <h3 class="trainer_name">---<span> Cody Fisher</span> <span class="role">Trainer</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="meet-our-team max-width default-margin-for-mobile">
+            <div class="heading">
+                <div class="meet-our-team-heading-content">
+                    <h1 class="our-team-section-title text-center">Meet Our Team</h1>
+                    <p class="our-team-section-description text-center">
+                        Dedicated Professionals Committed to Excellence and Innovation,
+                        Working Together to Achieve Outstanding Results for Our Clients
+                        and Community.
+                    </p>
+                </div>
+            </div>
+
+            <main class="main-content">
+           
+                <div class="team-person" id="team-person1">
+                    <img src="./images/trainer1.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Jerome Bell</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+             
+                <div class="team-person" id="team-person2">
+                    <img src="./images/trainer2.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Cameron Williamson</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+                
+                <div class="team-person" id="team-person3">
+                    <img src="./images/trainer3.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Darrell Steward</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+               
+                <div class="team-person" id="team-person4">
+                    <img src="./images/trainer4.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Dianne Russell</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+              
+                <div class="team-person" id="team-person5">
+                    <img src="./images/trainer5.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Cody Fisher</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+              
+                <div class="team-person" id="team-person6">
+                    <img src="./images/trainer6.png" alt="Trainer" />
+                    <div class="info">
+                        <h3 class="name">Theresa Webb</h3>
+                        <p class="role">Trainer</p>
+                    </div>
+                </div>
+            </main>
+        </section>
+       
     </main>
-    <footer>
+    
 
+
+    <!-- footer section start -->
+    <footer class="footer-container">
+        <div class="max-width">
+            <div class="footer-item-container">
+                <div class="footer-each-section">
+                    <button class="logo footer-title"><em>Fitness</em></button>
+                    <p class="footer-description">
+                        Experience the thrill of achieving your fitness objectives with
+                        Fitness. Our platform is packed with effective exercises, balanced
+                        nutrition advice, and a supportive community to keep you motivated
+                        every step of the way.
+                    </p>
+                </div>
+
+                <div class="footer-each-section">
+                    <h1 class="footer-section-title">Get Started</h1>
+                    <ul>
+                        <li><a href="">Service </a></li>
+                        <li><a href="">Contact Us </a></li>
+                        <li><a href="">Affiliate Program </a></li>
+                        <li><a href="">About Us </a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h1 class="footer-section-title">Get Started</h1>
+                    <ul>
+                        <li><a href="">Fitness </a></li>
+                        <li><a href="">Platform </a></li>
+                        <li><a href="">Workout Library </a></li>
+                        <li><a href="">App Design </a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer text-center">All right reserved @Fitness 2024</p>
+        </div>
     </footer>
     
+
 </body>
+
 </html>
