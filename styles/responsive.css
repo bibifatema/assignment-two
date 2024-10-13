@@ -280,61 +280,7 @@
     }
 
 
-    /* Get With the program start */
-    .get-with-the-program {
-        flex-direction: column;
-    }
-
-    .program-content {
-        width: 100%;
-    }
-
-    .program-banner {
-        width: 100%;
-    }
-
-    .program-title {
-        font-size: 2rem;
-        margin-bottom: 14px;
-    }
-
-    .program-content li {
-        font-size: 16px;
-    }
-
-
-
-    /* Training Schedule section start */
-    .training_schedule {
-        padding: 50px 20px;
-        margin-top: 100px;
-
-    }
-
-    .main_container_of_training_schedule {
-        grid-template-columns: 1fr;
-        column-gap: 0;
-    }
-
-    .each_day{
-        padding: 30px 20px;
-    }
-
-    .each_trainer{
-        flex-direction: column;
-        align-items: center;
-        padding: 40px 20px;
-    }
-
-    .each_trainer .info {
-        width: 100%;
-    }
-
-    .each_trainer .banner {
-        width: 60%;
-    }
-
-
+    
     /* Our team section start */
 
 
